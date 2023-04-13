@@ -7,6 +7,10 @@ Every parameter is configurable in the parameters file. The pendulum will move d
 videos examples with different initial conditions, no friction.
 
 
+https://user-images.githubusercontent.com/100198704/231829223-082b2548-a723-45c6-97f0-0059141d5487.mp4
+
+
+
 The script can be run in **two modes**, depending on the value of SAVE_VIDEO set in the parameters file:
 - `SAVE_VIDEO=False`: the simulation goes on forever, the discretization step specified in the parameters file affects the visualization speed and the accuracy of the discretization because the dynamics update is performed in the animation function. The position of End Effector and joint 2 are printed on the terminal;
 - `SAVE_VIDEO=True`: the system is simulated for the time specified in the parameter file and then the animation is saved on disk in the current directory in `mp4` format. When saving the video, the percentage of progress is shown on terminal.
