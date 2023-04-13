@@ -27,7 +27,7 @@ Enjoy changing the parameters and trying different initial conditions!
 
 ![scheme](https://user-images.githubusercontent.com/100198704/231793573-39874c63-d99e-4404-816b-356cd95e450b.svg)
 
-**Comments and suggestions to improve the code are welcome**, especially for:
+**Comments and suggestions to improve the code are welcome** (write in the discussion section), especially for:
 - avoid the use of global variables in the main file and pass parameters to functions in the most efficient way;
 - implement a better integration method
 - decouple the simulation and the visualization in case `SAVE_VIDEO=False`
