@@ -2,20 +2,27 @@
 Simulation of a double pendulum written in **Python** with visualization implemented using the Animation function of **Matplotlib**.
 Every parameter is configurable in the parameters file. The pendulum will move depending on initial conditions, gravity and friction.
 
-<img src="https://user-images.githubusercontent.com/100198704/231795094-6fdc78e5-9349-4eb9-a9a2-8cb2d591a416.png" width=40%>
+<img src="https://user-images.githubusercontent.com/100198704/231795094-6fdc78e5-9349-4eb9-a9a2-8cb2d591a416.png" width="300" >
 
-videos examples with different initial conditions, no friction.
+Examples with no friction and different initial conditions and visualization styles:
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/100198704/231830834-ccaf02f6-e414-4925-b2ae-90e56272dd6f.gif" width="500" /> 
+  <img src="https://user-images.githubusercontent.com/100198704/231835746-4effd418-b5d3-4d62-8764-a72a4405941d.gif" width="500" />
+</p>
 
+Examples with friction and different colors:
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/100198704/231838556-92f97056-7640-4b69-82ca-2bcdebdc9b39.gif" width="500" /> 
+  <img src="https://user-images.githubusercontent.com/100198704/231838575-93629e32-3500-4dd3-83cc-dcc3a94cd5a0.gif" width="500" />
+</p>
 
-https://user-images.githubusercontent.com/100198704/231829223-082b2548-a723-45c6-97f0-0059141d5487.mp4
-
-
+More videos on Youtube: *link*
 
 The script can be run in **two modes**, depending on the value of SAVE_VIDEO set in the parameters file:
 - `SAVE_VIDEO=False`: the simulation goes on forever, the discretization step specified in the parameters file affects the visualization speed and the accuracy of the discretization because the dynamics update is performed in the animation function. The position of End Effector and joint 2 are printed on the terminal;
 - `SAVE_VIDEO=True`: the system is simulated for the time specified in the parameter file and then the animation is saved on disk in the current directory in `mp4` format. When saving the video, the percentage of progress is shown on terminal.
 
-**Files**:
+### Files:
 - `double_pendulum.py`: main code to execute for the simulation. You can execute it directly from the code editor or opening a terminal in the folder of the file and typing `python3 double_pendulum.py`;
 - `utils.py`: utility functions. It implements the dynamics of the system and its discretization;
 - `params.py`: parameter file, used to specify any parameter concerning the dynamics, the initial conditions and the graphics. 
@@ -23,13 +30,13 @@ The script can be run in **two modes**, depending on the value of SAVE_VIDEO set
 Enjoy changing the parameters and trying different initial conditions!
 
 
-**Dynamic model**
+### Dynamic model
 
 ![equation](https://user-images.githubusercontent.com/100198704/231793024-0843b32f-b863-4cdc-b679-236908df053c.svg)
 
-**System scheme**
+### System scheme
 
-![scheme](https://user-images.githubusercontent.com/100198704/231793573-39874c63-d99e-4404-816b-356cd95e450b.svg)
+![scheme](https://user-images.githubusercontent.com/100198704/231837108-0fe1edcd-14b6-4414-90df-bd087057a5f2.svg)
 
 **Comments and suggestions to improve the code are welcome** (write in the discussion section), especially for:
 - avoid the use of global variables in the main file and pass parameters to functions in the most efficient way;
