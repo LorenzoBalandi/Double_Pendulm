@@ -18,9 +18,9 @@ Enjoy changing the parameters and trying different initial conditions!
 
 
 **Dynamic model**
-image
+
+![equation](https://user-images.githubusercontent.com/100198704/231793024-0843b32f-b863-4cdc-b679-236908df053c.svg)
 
 **System scheme**
-image
 
-
+![scheme](https://user-images.githubusercontent.com/100198704/231792837-f8e9cdf5-86b6-46be-899f-11fd8e5abafe.svg)
