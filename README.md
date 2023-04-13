@@ -1,8 +1,10 @@
 # Double_Pendulm
 Simulation of a double pendulum written in **Python** with visualization implemented using the Animation function of **Matplotlib**.
-Every parameter is configurable in the parameters file. 
+Every parameter is configurable in the parameters file. The pendulum will move depending on initial conditions, gravity and friction.
 
-videos examples with different initial conditions
+<img src="https://user-images.githubusercontent.com/100198704/231795094-6fdc78e5-9349-4eb9-a9a2-8cb2d591a416.png" width=40%>
+
+videos examples with different initial conditions, no friction.
 
 
 The script can be run in **two modes**, depending on the value of SAVE_VIDEO set in the parameters file:
@@ -18,10 +20,14 @@ Enjoy changing the parameters and trying different initial conditions!
 
 
 **Dynamic model**
-![Screenshot from 2023-04-13 15-17-57](https://user-images.githubusercontent.com/100198704/231795094-6fdc78e5-9349-4eb9-a9a2-8cb2d591a416.png)
 
 ![equation](https://user-images.githubusercontent.com/100198704/231793024-0843b32f-b863-4cdc-b679-236908df053c.svg)
 
 **System scheme**
 
 ![scheme](https://user-images.githubusercontent.com/100198704/231793573-39874c63-d99e-4404-816b-356cd95e450b.svg)
+
+**Comments and suggestions to improve the code are welcome**, especially for:
+- avoid the use of global variables in the main file and pass parameters to functions in the most efficient way;
+- implement a better integration method
+- decouple the simulation and the visualization in case `SAVE_VIDEO=False`
