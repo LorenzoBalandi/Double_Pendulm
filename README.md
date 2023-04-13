@@ -18,9 +18,10 @@ Enjoy changing the parameters and trying different initial conditions!
 
 
 **Dynamic model**
+![Screenshot from 2023-04-13 15-17-57](https://user-images.githubusercontent.com/100198704/231795094-6fdc78e5-9349-4eb9-a9a2-8cb2d591a416.png)
 
 ![equation](https://user-images.githubusercontent.com/100198704/231793024-0843b32f-b863-4cdc-b679-236908df053c.svg)
 
 **System scheme**
 
-![scheme](https://user-images.githubusercontent.com/100198704/231792837-f8e9cdf5-86b6-46be-899f-11fd8e5abafe.svg)
+![scheme](https://user-images.githubusercontent.com/100198704/231793573-39874c63-d99e-4404-816b-356cd95e450b.svg)
