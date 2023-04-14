@@ -6,17 +6,18 @@ Every parameter is configurable in the parameters file. The pendulum will move d
 
 Examples with no friction and different initial conditions and visualization styles:
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/100198704/231830834-ccaf02f6-e414-4925-b2ae-90e56272dd6f.gif" width="500" /> 
-  <img src="https://user-images.githubusercontent.com/100198704/231835746-4effd418-b5d3-4d62-8764-a72a4405941d.gif" width="500" />
+  <img src="https://user-images.githubusercontent.com/100198704/232058234-02a25b07-1997-4a23-a39f-10a3fef1cde7.gif" width="500" /> 
+  <img src="https://user-images.githubusercontent.com/100198704/232058248-571f1cca-ea97-4195-9d72-1e858939f532.gif" width="500" />
 </p>
 
 Examples with friction and different colors:
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/100198704/231838556-92f97056-7640-4b69-82ca-2bcdebdc9b39.gif" width="500" /> 
-  <img src="https://user-images.githubusercontent.com/100198704/231838575-93629e32-3500-4dd3-83cc-dcc3a94cd5a0.gif" width="500" />
+  <img src="https://user-images.githubusercontent.com/100198704/232058260-394c0afe-c9a0-46b1-8414-c4399c6dd410.gif" width="500" /> 
+  <img src="https://user-images.githubusercontent.com/100198704/232058271-1d8ff7b5-7075-4041-af4d-8a6d9f967dc0.gif" width="500" />
 </p>
 
 More videos on Youtube: *link*
+
 
 The script can be run in **two modes**, depending on the value of SAVE_VIDEO set in the parameters file:
 - `SAVE_VIDEO=False`: the simulation goes on forever, the discretization step specified in the parameters file affects the visualization speed and the accuracy of the discretization because the dynamics update is performed in the animation function. The position of End Effector and joint 2 are printed on the terminal;
