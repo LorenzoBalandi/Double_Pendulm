@@ -16,7 +16,7 @@ Examples with friction and different colors:
   <img src="https://user-images.githubusercontent.com/100198704/232058271-1d8ff7b5-7075-4041-af4d-8a6d9f967dc0.gif" width="500" />
 </p>
 
-More videos on Youtube: *link*
+More videos on [Youtube](https://youtu.be/ndNXlVD7ytE)
 
 
 The script can be run in **two modes**, depending on the value of SAVE_VIDEO set in the parameters file:
